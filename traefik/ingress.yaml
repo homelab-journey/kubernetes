@@ -1,8 +1,8 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: wp-clcreative
-  namespace: wp-clcreative
+  name: treafik
+  namespace: default
   annotations:
     # (Optional): Annotations for the Ingress Controller
     # -- ingress class is needed when traefik is not the default
